@@ -10,29 +10,29 @@
 
 ## 📌 About This Repository
 
-This repository contains my outputs for the ELEC 4 – Python Programming Self-Paced Learning Assignment. The activities demonstrate my understanding of Python programming concepts, including functions, modules, collections, exception handling, file handling, recursion, classes, inheritance, and polymorphism.
+This repository contains my laboratory outputs for the ELEC 4 – Python Programming Self-Paced Learning Assignment. The activities demonstrate understanding of Python programming concepts, including functions, modular programming, collections, exception handling, file input/output, recursion, classes and objects, inheritance, and polymorphism.
 
 ---
 
 ## 📋 Activities Summary
 
-### SET 1 – Python Fundamentals (Deadline: Nov 29, 2026)
+### SET 1 – Python Fundamentals (Deadline: Nov 29, 2026, 11:59 PM)
 
 | Activity | Description | Folder |
 |---|---|---|
-| **P1** | Student Grade Calculator – Functions & scope | [📂 P1](set1/p1/) |
-| **P2** | Custom Module – `student_utils` & built-in modules | [📂 P2](set1/p2/) |
-| **P3** | Student Record Manager – Lists and Sets | [📂 P3](set1/p3/) |
-| **P4** | Safe Menu Program – Exception Handling (`try-except-else-finally`) | [📂 P4](set1/p4/) |
+| **P1** | Student Grade Calculator – User-defined functions, parameters, return values, variable scope | [📂 P1](set1/p1/) |
+| **P2** | Custom Module – `student_utils.py` and built-in modules (`datetime`) | [📂 P2](set1/p2/) |
+| **P3** | Student Record Manager – Lists, sets, and case-insensitive duplicate prevention | [📂 P3](set1/p3/) |
+| **P4** | Safe Menu Program – Exception handling with `try`, `except`, `else`, and `finally` | [📂 P4](set1/p4/) |
 
-### SET 2 – Advanced Python Concepts (Deadline: Dec 6, 2026)
+### SET 2 – Advanced Python Concepts (Deadline: Dec 6, 2026, 11:59 PM)
 
 | Activity | Description | Folder |
 |---|---|---|
-| **P5** | Student Information – File Handling (`students.txt`) | [📂 P5](set2/p5/) |
-| **P6** | Recursion Toolkit – Recursive calculations and search | [📂 P6](set2/p6/) |
-| **P7** | Student Management System – Classes and Objects | [📂 P7](set2/p7/) |
-| **P8** | Inheritance and Polymorphism – Method overriding | [📂 P8](set2/p8/) |
+| **P5** | Student Information File System – Persistent storage in `students.txt` with `with open()` | [📂 P5](set2/p5/) |
+| **P6** | Recursion Toolkit – Pure recursive functions (factorial, fibonacci, sum, search) | [📂 P6](set2/p6/) |
+| **P7** | Student Management System – Classes, `__init__`, private attributes, and validation | [📂 P7](set2/p7/) |
+| **P8** | Inheritance & Polymorphism – Base and derived classes with method overriding | [📂 P8](set2/p8/) |
 
 ---
 
@@ -46,7 +46,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set1/p1/p1_grade_calculator.py
   ```
 * **Sample Output:**
-  ![P1 Screenshot](set1/p1/screenshots/sample_run.png)
+  ![P1 Output](set1/p1/screenshots/p1_output.png)
 
 ---
 
@@ -56,7 +56,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set1/p2/p2_main.py
   ```
 * **Sample Output:**
-  ![P2 Screenshot](set1/p2/screenshots/sample_run.png)
+  ![P2 Output](set1/p2/screenshots/p2_output.png)
 
 ---
 
@@ -66,7 +66,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set1/p3/p3_record_manager.py
   ```
 * **Sample Output:**
-  ![P3 Screenshot](set1/p3/screenshots/sample_run.png)
+  ![P3 Output](set1/p3/screenshots/p3_output.png)
 
 ---
 
@@ -76,7 +76,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set1/p4/p4_exceptions.py
   ```
 * **Sample Output:**
-  ![P4 Screenshot](set1/p4/screenshots/sample_run.png)
+  ![P4 Output](set1/p4/screenshots/p4_output.png)
 
 ---
 
@@ -88,7 +88,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set2/p5/p5_file_system.py
   ```
 * **Sample Output:**
-  ![P5 Screenshot](set2/p5/screenshots/sample_run.png)
+  ![P5 Output](set2/p5/screenshots/p5_output.png)
 
 ---
 
@@ -98,7 +98,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set2/p6/p6_recursion.py
   ```
 * **Sample Output:**
-  ![P6 Screenshot](set2/p6/screenshots/sample_run.png)
+  ![P6 Output](set2/p6/screenshots/p6_output.png)
 
 ---
 
@@ -108,7 +108,7 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set2/p7/p7_classes.py
   ```
 * **Sample Output:**
-  ![P7 Screenshot](set2/p7/screenshots/sample_run.png)
+  ![P7 Output](set2/p7/screenshots/p7_output.png)
 
 ---
 
@@ -118,4 +118,4 @@ This repository contains my outputs for the ELEC 4 – Python Programming Self-P
   python set2/p8/p8_inheritance.py
   ```
 * **Sample Output:**
-  ![P8 Screenshot](set2/p8/screenshots/sample_run.png)
+  ![P8 Output](set2/p8/screenshots/p8_output.png)
