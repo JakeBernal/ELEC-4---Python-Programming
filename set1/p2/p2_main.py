@@ -1,14 +1,13 @@
+
+
 from datetime import datetime
-
 import student_utils
-from student_utils
-
-import calculate_average, determine_pass_fail
+from student_utils import calculate_average, determine_pass_fail
 
 
 def enter_grades():
     grades = []
-    print("Enter the student's grades (0-100).")
+    print("\n--- Enter Student Grades (0-100) ---")
 
     while True:
         try:
@@ -31,17 +30,26 @@ def enter_grades():
 
 def main():
     grades = enter_grades()
+    if not grades:
+        print("No grades entered.")
+        return
+
+    # Using imported functions from both import styles:
     average = calculate_average(grades)
     status = determine_pass_fail(grades)
     highest = student_utils.get_highest_grade(grades)
     lowest = student_utils.get_lowest_grade(grades)
 
-    print("\nStudent Grade Report")
+    print("\n" + "=" * 40)
+    print("         STUDENT GRADE REPORT")
+    print("Student: Noel Jake Bernal | Section: IV-BSIT A")
     print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Average: {average:.2f}")
-    print(f"Highest: {highest:.2f}")
-    print(f"Lowest: {lowest:.2f}")
-    print(f"Status: {status}")
+    print("=" * 40)
+    print(f"Average Grade : {average:.2f}")
+    print(f"Highest Grade : {highest:.2f}")
+    print(f"Lowest Grade  : {lowest:.2f}")
+    print(f"Final Status  : {status}")
+    print("=" * 40)
 
 
 if __name__ == "__main__":
