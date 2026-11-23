@@ -18,21 +18,21 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 
 ### SET 1 – Python Fundamentals (Deadline: Nov 29, 2026, 11:59 PM)
 
-| Activity | Description | Folder |
-|---|---|---|
-| **P1** | Student Grade Calculator – User-defined functions, parameters, return values, variable scope | [📂 P1](set1/p1/) |
-| **P2** | Custom Module – `student_utils.py` and built-in modules (`datetime`) | [📂 P2](set1/p2/) |
-| **P3** | Student Record Manager – Lists, sets, and case-insensitive duplicate prevention | [📂 P3](set1/p3/) |
-| **P4** | Safe Menu Program – Exception handling with `try`, `except`, `else`, and `finally` | [📂 P4](set1/p4/) |
+| Activity | Description | Main File | Folder |
+|---|---|---|---|
+| **P1** | Student Grade Calculator – User-defined functions & variable scope | `p1_grade_calculator.py` | [📂 P1](set1/p1/) |
+| **P2** | Custom Module – `student_utils.py` and built-in modules | `p2_main.py` | [📂 P2](set1/p2/) |
+| **P3** | Student Record Manager – Lists, sets & duplicate prevention | `p3_record_manager.py` | [📂 P3](set1/p3/) |
+| **P4** | Safe Menu Program – Exception handling (`try-except-else-finally`) | `p4_exceptions.py` | [📂 P4](set1/p4/) |
 
 ### SET 2 – Advanced Python Concepts (Deadline: Dec 6, 2026, 11:59 PM)
 
-| Activity | Description | Folder |
-|---|---|---|
-| **P5** | Student Information File System – Persistent storage in `students.txt` with `with open()` | [📂 P5](set2/p5/) |
-| **P6** | Recursion Toolkit – Pure recursive functions (factorial, fibonacci, sum, search) | [📂 P6](set2/p6/) |
-| **P7** | Student Management System – Classes, `__init__`, private attributes, and validation | [📂 P7](set2/p7/) |
-| **P8** | Inheritance & Polymorphism – Base and derived classes with method overriding | [📂 P8](set2/p8/) |
+| Activity | Description | Main File | Folder |
+|---|---|---|---|
+| **P5** | Student Information File System – File storage in `students.txt` | `p5_file_system.py` | [📂 P5](set2/p5/) |
+| **P6** | Recursion Toolkit – Recursive calculations and search | `p6_recursion.py` | [📂 P6](set2/p6/) |
+| **P7** | Student Management System – Classes, `__init__`, and private attributes | `p7_classes.py` | [📂 P7](set2/p7/) |
+| **P8** | Inheritance & Polymorphism – Base/derived classes & method overriding | `p8_inheritance.py` | [📂 P8](set2/p8/) |
 
 ---
 
@@ -41,8 +41,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ### Set 1 Activities
 
 #### P1: Student Grade Calculator
+* **Directory:** `set1/p1/`
+* **File:** `p1_grade_calculator.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set1/p1
+  python p1_grade_calculator.py
+
+  # Option 2: Run directly from repository root
   python set1/p1/p1_grade_calculator.py
   ```
 * **Sample Output:**
@@ -51,8 +58,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P2: Custom Module (`student_utils`)
+* **Directory:** `set1/p2/`
+* **Files:** `p2_main.py`, `student_utils.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set1/p2
+  python p2_main.py
+
+  # Option 2: Run directly from repository root
   python set1/p2/p2_main.py
   ```
 * **Sample Output:**
@@ -61,8 +75,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P3: Student Record Manager
+* **Directory:** `set1/p3/`
+* **File:** `p3_record_manager.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set1/p3
+  python p3_record_manager.py
+
+  # Option 2: Run directly from repository root
   python set1/p3/p3_record_manager.py
   ```
 * **Sample Output:**
@@ -71,8 +92,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P4: Safe Menu Program
+* **Directory:** `set1/p4/`
+* **File:** `p4_exceptions.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set1/p4
+  python p4_exceptions.py
+
+  # Option 2: Run directly from repository root
   python set1/p4/p4_exceptions.py
   ```
 * **Sample Output:**
@@ -83,8 +111,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ### Set 2 Activities
 
 #### P5: Student Information File System
+* **Directory:** `set2/p5/`
+* **Files:** `p5_file_system.py`, `students.txt`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set2/p5
+  python p5_file_system.py
+
+  # Option 2: Run directly from repository root
   python set2/p5/p5_file_system.py
   ```
 * **Sample Output:**
@@ -93,8 +128,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P6: Recursion Toolkit
+* **Directory:** `set2/p6/`
+* **File:** `p6_recursion.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set2/p6
+  python p6_recursion.py
+
+  # Option 2: Run directly from repository root
   python set2/p6/p6_recursion.py
   ```
 * **Sample Output:**
@@ -103,8 +145,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P7: Student Management System with Classes
+* **Directory:** `set2/p7/`
+* **File:** `p7_classes.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set2/p7
+  python p7_classes.py
+
+  # Option 2: Run directly from repository root
   python set2/p7/p7_classes.py
   ```
 * **Sample Output:**
@@ -113,8 +162,15 @@ This repository contains my laboratory outputs for the ELEC 4 – Python Program
 ---
 
 #### P8: Inheritance and Polymorphism
+* **Directory:** `set2/p8/`
+* **File:** `p8_inheritance.py`
 * **Run command:**
   ```bash
+  # Option 1: Navigate to directory
+  cd set2/p8
+  python p8_inheritance.py
+
+  # Option 2: Run directly from repository root
   python set2/p8/p8_inheritance.py
   ```
 * **Sample Output:**
