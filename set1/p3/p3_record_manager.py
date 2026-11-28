@@ -129,3 +129,38 @@ def main()
     students_list = []
     # Set: used for efficient, fast duplicate detection
     unique_names_set = set()
+      while True:
+        show_menu()
+        choice = input("Enter choice (1-5): ").strip()
+
+        if choice == "1":
+            add_student(students_list, unique_names_set)
+        elif choice == "2":
+            remove_student(students_list, unique_names_set)
+        elif choice == "3":
+            search_student(students_list)
+        elif choice == "4":
+            display_all_students(students_list)
+        elif choice == "5":
+            print("\nExiting Student Record Manager. Goodbye!")
+            break
+        else:
+            print("Invalid selection. Please choose an option from 1 to 5.")
+
+
+if __name__ == "__main__":
+    main()
+
+    
+# ==============================================================================
+# DIFFERENCE BETWEEN A LIST AND A SET:
+# A list in Python is an ordered, indexed collection that allows duplicate values 
+# and maintains the insertion order of elements, which makes it ideal for sorting 
+# and numbered enumeration. In contrast,
+# a set is an unordered collection of 
+# unique elements that does not allow duplicates and offers highly efficient O(1) 
+# membership testing. In this program, I used a set (unique_names_set) to quickly 
+# verify and prevent duplicate student entries case-insensitively, while I used a 
+# list (students_list) to store the names so they can be sorted in alphabetical order, 
+# iterated with numbering, and searched for partial name matches.
+# ==============================================================================
