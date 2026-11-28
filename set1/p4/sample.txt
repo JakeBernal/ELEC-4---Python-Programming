@@ -1,0 +1,4 @@
+Hello, this is a sample file for P4 Safe Menu Program testing.
+Program: p4_exceptions.py
+Student: Noel Jake Bernal
+Section: IV-BSIT A
