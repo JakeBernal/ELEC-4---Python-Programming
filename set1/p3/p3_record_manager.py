@@ -62,6 +62,67 @@ def remove_student(students_list, unique_names_set):
         print(f"Not Found: No student found matching '{name_to_remove}'.")
 
 
+def search_student(students_list):
+    """
+    Searches for students matching a partial name query.
+    """
+    print("\n--- Search Student ---")
+    if not students_list:
+        print("Record is empty. No students to search.")
+        return
+
+    query = input("Enter name or partial name to search: ").strip()
+    if not query:
+        print("Error: Search query cannot be empty.")
+        return
+
+    # Filter list for partial matches (case-insensitive)
+    matches = [student for student in students_list if query.lower() in student.lower()]
+
+    if matches:
+        print(f"\nFound {len(matches)} matching student(s):")
+        for idx, student in enumerate(matches, start=1):
+            print(f"  {idx}. {student}")
+    else:
+        print(f"No students found matching '{query}'.")
+
+
+
+def display_all_students(students_list):
+    """
+    Displays all students in alphabetical order, numbered, with total count.
+    """
+    print("\n--- All Students List ---")
+    if not students_list:
+        print("No student records available. The list is empty.")
+        return
+
+    # Sort students alphabetically without modifying original order
+    sorted_students = sorted(students_list, key=str.lower)
+    total_count = len(sorted_students)
+
+    print(f"Total Students: {total_count}")
+    print("-" * 35)
+    for index, student in enumerate(sorted_students, start=1):
+        print(f"{index}. {student}")
+    print("-" * 35)
+
+
+def show_menu():
+    """
+    Displays the user menu options.
+    """
+    print("\n" + "=" * 45)
+    print("         STUDENT RECORD MANAGER")
+    print("Student: Noel Jake Bernal | Section: IV-BSIT A")
+    print("=" * 45)
+    print("1. Add Student")
+    print("2. Remove Student")
+    print("3. Search Student (Partial Match)")
+    print("4. Display All Students")
+    print("5. Exit")
+    print("=" * 45)
+
 def main()
 
      # List: used to store ordered names for sorting and display
